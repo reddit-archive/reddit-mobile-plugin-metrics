@@ -14,7 +14,6 @@ var GoogleAnalytics = React.createClass({
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', '${propertyId}', 'auto');
-    ga('send', 'pageview');
 
     </script>
     `;
