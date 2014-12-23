@@ -1,6 +1,6 @@
 {
   "name": "switcharoo-plugin-metrics",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "metrics for the switcharoo mobile reddit client",
   "main": "core.es6.js",
   "scripts": {
