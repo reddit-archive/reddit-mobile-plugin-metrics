@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { mutate, query } from 'react-mutator';
 
 import GoogleAnalyticsFactory from './views/components/GoogleAnalytics'

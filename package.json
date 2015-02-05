@@ -1,6 +1,6 @@
 {
   "name": "switcharoo-plugin-metrics",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "metrics for the switcharoo mobile reddit client",
   "main": "core.es6.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "author": "reddit <jack@reddit.com>",
   "license": "MIT",
   "peerDependencies": {
-    "6to5": "^1.15.0",
+    "6to5": "^3.3.7",
     "node-jsx": "^0.12.4",
     "q": "^1.1.2",
-    "react": "^0.12.2",
+    "react": "^0.13.0-beta.1",
     "react-mutator": "^0.3.0",
     "snoode": "^0.1.5",
     "superagent": "^0.21.0"

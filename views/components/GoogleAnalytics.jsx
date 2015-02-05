@@ -1,6 +1,6 @@
 /** @jsx React.DOM */
 
-import * as React from 'react';
+import React from 'react';
 
 var GoogleAnalytics = React.createClass({
   render: function() {

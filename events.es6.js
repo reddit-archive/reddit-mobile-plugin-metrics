@@ -1,4 +1,4 @@
-import * as querystring from 'querystring';
+import querystring from 'querystring';
 
 var events = {
   'route:start': function(req) {
