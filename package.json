@@ -9,11 +9,7 @@
   "author": "reddit <jack@reddit.com>",
   "license": "MIT",
   "dependencies": {
-    "6to5": "^3.6.2",
-    "q": "^1.1.2",
     "react": "^0.13.0-beta.1",
-    "react-mutator": "^0.4.0",
-    "snoode": "^0.2.2",
-    "superagent": "^0.21.0"
+    "react-mutator": "^0.4.0"
   }
 }
