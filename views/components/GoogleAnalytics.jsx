@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 import React from 'react';
 
 var GoogleAnalytics = React.createClass({
