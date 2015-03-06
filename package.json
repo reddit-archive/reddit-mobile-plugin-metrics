@@ -1,7 +1,7 @@
 {
-  "name": "switcharoo-plugin-metrics",
-  "version": "0.3.8",
-  "description": "metrics for the switcharoo mobile reddit client",
+  "name": "reddit-mobile-plugin-metrics",
+  "version": "1.0.0",
+  "description": "metrics for the reddit mobile web client",
   "main": "core.es6.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
