@@ -1,11 +1,11 @@
 import querystring from 'querystring';
 
 var events = {
-  'route:start': function(req) {
-    var fullUrl = req.url;
+  'route:start': function(ctx) {
+    var fullUrl = ctx.path;
 
-    if (req.query) {
-      fullUrl += '?' + querystring.stringify(req.query);
+    if (ctx.query) {
+      fullUrl += '?' + querystring.stringify(ctx.query);
     }
 
     if (global && global.ga) {
