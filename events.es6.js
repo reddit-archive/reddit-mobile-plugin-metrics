@@ -29,11 +29,11 @@ var events = {
   },
 
   'vote': function (vote) {
-    ga('send', 'event', 'vote', vote.direction);
+    ga('send', 'event', 'vote', vote.get('direction'));
   },
 
   'comment': function (comment) {
-    ga('send', 'event', 'comment', comment.text.length);
+    ga('send', 'event', 'comment', comment.get('text').length);
   },
 
   'search': function (query) {
