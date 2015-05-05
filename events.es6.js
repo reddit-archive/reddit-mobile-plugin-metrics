@@ -34,7 +34,7 @@ var events = {
   },
 
   'comment': function (comment) {
-    ga('send', 'event', 'comment', comment.get('text').length);
+    ga('send', 'event', 'comment', 'words', comment.get('text').match(/\S+/g).length);
   },
 
   'search': function (query) {
