@@ -25,6 +25,7 @@ var events = {
   },
 
   'compactToggle': function (compact) {
+    ga('send', 'event', 'compactToggle', compact.toString());
     ga('set', 'dimension3', compact.toString());
   },
 
