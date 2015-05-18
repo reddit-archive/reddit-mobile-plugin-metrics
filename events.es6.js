@@ -14,13 +14,18 @@ var events = {
 
       var loggedIn = !!window.bootstrap.user;
 
-      var compactCookieValue = document.cookie.match(/\bcompact=(.+)\b/);
+      var compactCookieValue = document.cookie.match(/\bcompact=(\w+)\b/);
       var compact = !!(compactCookieValue &&
                       compactCookieValue.length > 1 &&
                       compactCookieValue[1] === 'true');
 
+      var compactTestCookieValue = document.cookie.match(/\bcompactTest=(\w+)\b/);
+      var compactTest = compactTestCookieValue ? compactTestCookieValue[1] : 'undefined';
+
+
       ga('set', 'dimension2', loggedIn.toString());
       ga('set', 'dimension3', compact.toString());
+      ga('set', 'dimension4', compactTest.toString());
     }
   },
 
